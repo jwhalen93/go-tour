@@ -12,9 +12,7 @@ func fibonacci() func() int {
 			first = 1
 			return 0
 		}
-		t := second
-		second = first + second
-		first = t
+		first, second = second, first+second
 		return second
 	}
 }
