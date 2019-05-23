@@ -1,10 +1,8 @@
-package main
+package tour
 
 import (
 	"image"
 	"image/color"
-
-	"golang.org/x/tour/pic"
 )
 
 type Image struct {
@@ -24,7 +22,7 @@ func (img Image) At(x, y int) color.Color {
 	return color.RGBA{uint8(x * y), uint8(y ^ x), 255, 255}
 }
 
-func main() {
+/*func main() {
 	m := Image{255, 255}
 	pic.ShowImage(m)
-}
+}*/

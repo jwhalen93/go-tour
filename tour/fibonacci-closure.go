@@ -1,10 +1,8 @@
-package main
-
-import "fmt"
+package tour
 
 // fibonacci is a function that returns
 // a function that returns an int.
-func fibonacci() func() int {
+func Fibonacci() func() int {
 	first := 0
 	second := 0
 	return func() int {
@@ -17,9 +15,9 @@ func fibonacci() func() int {
 	}
 }
 
-func main() {
+/*func main() {
 	f := fibonacci()
 	for i := 0; i < 10; i++ {
 		fmt.Println(f())
 	}
-}
+}*/

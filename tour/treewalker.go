@@ -1,4 +1,4 @@
-package main
+package tour
 
 import (
 	"golang.org/x/tour/tree"

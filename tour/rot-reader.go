@@ -1,10 +1,8 @@
-package main
+package tour
 
 import (
 	"errors"
 	"io"
-	"os"
-	"strings"
 )
 
 type rot13Reader struct {
@@ -33,8 +31,8 @@ func rot13(b byte) byte {
 	return b
 }
 
-func main() {
+/*func main() {
 	s := strings.NewReader("Lbh penpxrq gur pbqr!")
 	r := rot13Reader{s}
 	io.Copy(os.Stdout, &r)
-}
+}*/
