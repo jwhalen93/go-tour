@@ -1,4 +1,4 @@
-package main
+package tour
 
 func Pic(dx, dy int) [][]uint8 {
 	dySlice := make([][]uint8, dy)
